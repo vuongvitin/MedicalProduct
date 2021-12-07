@@ -1,6 +1,8 @@
 *{
     font-family: Arial, Helvetica, sans-serif;
 }
+
+/* NAV */
 nav{
     background-color: cornflowerblue;
 }
@@ -9,7 +11,8 @@ nav:hover{
 }
 .container{
     width: 70%;
-    /* margin: 0 auto; */
+    margin: 0 auto;
+    position: relative;
 }
 .d-flex{
     display: flex;
@@ -18,7 +21,7 @@ nav:hover{
     margin: 0 auto;
     flex-wrap: wrap;
 }
-ul{
+.ull{
     list-style-type: none;
     padding: 0;
     margin: 0;
@@ -78,78 +81,20 @@ ul.menu > li > a:hover{
     opacity: 0.9;
 }
 
-
-.banner{
-    width: 100%;
-    height: 25rem;
-    
-}
-.object{
-    margin-top: 20px;
-    margin-bottom: 20px;
-    text-align: center;
-    color: rgb(11, 11, 100);
-    font-weight: bold;
-}
-.object::after{
-    content: "---oo0oo---";
-    display: block;
-    font-size: 1.5rem;
-}
-div.items figure{
-    width: 48%;
-    padding: 15px;
-    background-color: white;
-    margin: 7px;
-    height: 35rem;
-}
-
-figure img{
-    width: 100%;
-    height: 400px;
-}
-
-div.items{
-    background-color: rgba(47, 46, 116, 0.7);
-    text-align: center;
-    border-radius: 15px;
-    padding: 10px;
-}
-.box-Shadow{
-    padding: 10px;
-    transition: 0.5s all;
-}
-.box-Shadow:hover{
-    box-shadow: 2px 3px 10px 10px rgba(129, 38, 38, 0.533);
-}
-
-div.illustr div{
-    width: 25%;
-    display: block;
-    margin-top: 4rem;
-    margin-bottom: 3rem;
-}
-div.illustr img{
-    width: 100%;
-    transition: transform 0.5s;
-}
-div.illustr img:hover{
-    transform: scale(1.3);
-    z-index: 99;
-}
-h4.title{
-    padding: 10px;
-    font-weight: bold !important;
-    color: rgb(63, 63, 134) !important;
-}
-
-
+/* footer */
 .certifi img{
     width: 100%;
 }
 .certifi > div{
     width: 11%;
     margin: 7px;
+}
+.object{
+    margin-top: 5rem;
+    margin-bottom: 20px;
+    text-align: center;
+    color: rgb(11, 11, 100);
+    font-weight: bold;
 }
 
 img.radius{
@@ -162,14 +107,95 @@ img.radius{
     width: 35%;
     margin: 0 4.5rem;
 }
-.tit > li:first-child{
+.titw > li:first-child{
     margin-bottom: 15px;
     font-weight: bold;
 }
-.tit img{
+.titw img{
     transition: transform 0.5s;
 }
-.tit img:hover{
+.titw img:hover{
     transform: scale(1.2);
 }
 
+
+/* Content */
+div.banner{
+    width: 100%;
+    position: relative;
+}
+div.banner > img{
+    width: 100%;
+    height: 400px;
+}
+div.tit{
+    position: absolute;
+    right: 20px;
+    bottom: 15px;
+    color: #1308a5;
+}
+
+div.sloves > div {
+    width: 17%;
+    margin: 0px 10px;
+}
+div.sloves > div > img {
+    width: 100%;
+}
+.object2{
+    color: rgb(24, 143, 87);
+    font-weight: bold;
+    padding: 20px;
+    text-align: center;
+}
+ul.padli > li{
+    padding: 7px;
+}
+span.pad{
+    display: block;
+    padding: 5px;
+}
+table{
+    border:1px solid black;
+    border-collapse: collapse;
+    margin: 3rem 0;
+}
+th{
+    border:1px solid black;
+}
+td{
+    border:1px solid black;
+}
+
+h4.center{
+    text-align: center;
+}
+
+tr >th{
+    text-align: center;
+}
+tr > td{
+    padding: 10px;
+}
+ul.style{
+    list-style: square;
+}
+div.clothes > div:first-child{
+    width: 50%;
+}
+div.clothes > div:last-child{
+    width: 47%;
+}
+div.clothes img{
+    width: 100%;
+}
+section.clothesPadding{
+    padding: 5rem;
+}
+
+div.sloves img:hover{
+    transform: scale(2);
+}
+div.sloves img{
+    transition: transform 1s;
+}

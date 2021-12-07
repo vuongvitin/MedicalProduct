@@ -1,0 +1,148 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+}
+.container{
+    width: 70%;
+    margin: 0 auto;
+}
+.d-flex{
+    display: flex;
+    flex-wrap: wrap;
+}
+header{
+    background-color: #bd9898;
+    position: relative;
+    align-items: center;
+    padding: 5px;
+}
+div.radius > img{
+    width: 40%;
+    border-radius: 45%;
+}
+header.width > div:first-child{
+    width: 33.3%;
+}
+.menu > li{
+    list-style-type: none;
+    margin-right: 2px;
+}
+.menu{
+    margin: 0;
+    display: block;
+}
+a{
+    text-decoration: none !important;
+}
+ul.menu > li > a{
+    display: block;
+    padding: 5px 10px;
+    background: linear-gradient(rgb(94, 33, 83), #5f4753);
+    color: rgb(243, 243, 243);
+    border-radius: 7px 7px 0 0;
+    font-weight: bold;
+}
+div >  ul{
+    position: absolute;
+    right: 1rem;
+    bottom: 5px;
+}
+.object{
+    color: rgb(161, 40, 40);
+    text-shadow: 7px 3px 7px;
+    font-weight: bold;
+}
+.object2{
+    font-weight: bold;
+}
+
+div.item > div > img{
+    width: 100%;
+    height: 20rem;
+}
+div.item{
+    width: 32.2%;
+    margin: 6px;
+    padding: 10px;
+    background-color: rgb(240, 232, 220);
+}
+div.items{
+    margin-top: 5px;
+    margin-bottom: 5px;
+    padding: 0px;
+}
+div.item img{
+    transition: tranform 1s;
+}
+div.item img:hover{
+    transform: scale(1.1);
+}
+
+h1.subject > span{
+    display: block;
+    background-color: #bd9898;
+    width: 30%;
+    color: white;
+    padding: 10px;
+    margin: 0;
+    border-radius: 20px 20px 0 0;
+}
+h1.subject::after{
+    content: " ";
+    background-color: #bb1717;
+    display: block;
+    width: 100%;
+    height: 3px;
+}
+
+
+div.col-30 > img{
+    width: 100%;
+}
+div.flex{
+    display: flex;
+}
+
+.col-30 {
+    width: 30%;
+    margin-right: 5px;
+}
+.col-70{
+    width: 70%;
+}
+div.post{
+    margin: 7px 0;
+}
+
+/* ads */
+div.menu{
+    position: fixed;
+    right: 5%;
+}
+aside.ads img{
+    transition: transform 0.5s;
+}
+aside.ads img:hover{
+    transform: scale(1.1);
+}
+/* footer */
+footer{
+    background-color: rgb(87, 122, 122);
+    padding: 15px;
+    overflow: hidden;
+}
+footer > span.wordmove{
+    animation: dichuyen 15s infinite;
+    position: relative;
+    color: rgb(147, 3, 184);
+}
+
+
+@keyframes dichuyen {
+    from{
+        left: 0;
+    }to{
+        left: 100%
+    }
+}
+
+
